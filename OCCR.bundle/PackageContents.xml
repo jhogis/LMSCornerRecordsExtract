@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage
+    SchemaVersion="1.0"
+    Version="1.0">
+	<Components>
+		<RuntimeRequirements
+            OS="Win64"
+            Platform="AutoCAD" />
+		<ComponentEntry
+            AppName="OCCR"
+            ModuleName="./Contents/command.dll"
+            AppDescription="Design Automation .net test app"
+            LoadOnCommandInvocation="True"
+            LoadOnAutoCADStartup="True">
+			<Commands GroupName="MyTestCommands">
+				<Command Global="OCPWCR" Local="OCPWCR" />
+			</Commands>
+		</ComponentEntry>
+	</Components>
+</ApplicationPackage>
