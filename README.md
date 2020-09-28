@@ -3,7 +3,7 @@
 
 ## Description
 
-This repository contains C# project of an AutoCAD CRX plug-in. The plug-in implements an AutoCAD custom command named RUNCR. This command extracts data from a corner record file for orange county public works.
+This repository contains C# project of an AutoCAD CRX plug-in. The plug-in implements an AutoCAD custom command named OCPWCR. This command extracts data from a corner record file for orange county public works.
 
 ## Dependencies
 * Visual Studio. This sample was created in Visual Studio 2017.
